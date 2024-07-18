@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "latest",
+    "@pinia/nuxt": "^0.5.1",
+    "@quasar/extras": "^1.16.11",
+    "add": "^2.0.6",
+    "compressorjs": "^1.2.1",
+    "date-fns": "^3.6.0",
+    "marked": "^13.0.1",
+    "nuxt": "^3.12.2",
+    "nuxt-quasar-ui": "latest",
+    "openai": "^4.52.1",
+    "pinia": "^2.1.7",
+    "quasar": "^2.16.4"
+  }
+}
